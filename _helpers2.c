@@ -1,4 +1,4 @@
-i#include "shell.h"
+#include "shell.h"
 
 void envirHelper(void);
 void setEnvirHelper(void);
@@ -6,7 +6,7 @@ void unSetEnvirHelper(void);
 void hstorHelper(void);
 
 /**
- * envirHelper - this function display info.
+ * envirHelper - this function display information.
  */
 void envirHelper(void)
 {
