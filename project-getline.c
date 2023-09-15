@@ -7,7 +7,7 @@ ssize_t fn_get_ln(char **lineptr, size_t *n, FILE *stream);
 /**
  * fn_reset_sz - this function change the size of ptr.
  * @ourptr: memory is pointer.
- * @sizeOld: return old size.
+ * @sizeOld: return old size and.
  * @sizeNew: return new size.
  * Return: return old or new size.
  */
