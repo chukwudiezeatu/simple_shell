@@ -1,4 +1,4 @@
-i#include "shell.h"
+#include "shell.h"
 
 char *arguments_get(char *ourline, int *exeRet);
 int arguments_call(char **amgt, char **ourfront, int *exeRet);
@@ -7,7 +7,7 @@ int arg_handler(int *exeRet);
 int argum_checker(char **amgt);
 
 /**
- * arguments_get - function to get cmd.
+ * arguments_get - function to get the  cmd.
  * @ourline: container ot store cmd.
  * @exeRet: vla of excuted cmd.
  * Return: null or pointer.
