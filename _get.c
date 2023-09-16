@@ -6,7 +6,7 @@ char *get_env_value(char *beginning, int len);
 void replace_var(char **ourline, int *exeRet);
 
 /**
- * fn_to_free_arg - function to free memory.
+ * fn_to_free_arg - function to to free memory.
  * @amgt: double ptr contain command and amgt.
  * @ourfront: double ptr.
  */
