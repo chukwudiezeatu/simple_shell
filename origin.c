@@ -1,4 +1,4 @@
-i#include "shell.h"
+#include "shell.h"
 int (*get_builtin(char *command))(char **amgt, char **ourfront);
 int exit_shell(char **amgt, char **ourfront);
 int change_fileDir(char **amgt, char __attribute__((__unused__)) **ourfront);
